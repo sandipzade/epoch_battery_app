@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Epoch Batteries</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <div class="alert alert-danger alert-dismissible fade show alert-container border-0" role="alert">
+        <div class="row me-0">
+            <div class="col-md-4 col-sm-6 text-center">support@epochbatteries.com</div>
+            <div class="col-md-4 col-sm-6 text-center">FREE SHOPPING on orders of $50+</div>
+            <div class="col-md-4 col-sm-6 text-center">11 years warrenty <span
+                    class="vr mx-2 align-middle text-white"></span> Product
+                Registration </div>
+        </div>
+        <button type="button" class="btn-close me-2" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+
+    <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img class="header-logo" alt="Header logo"
+                    src="images/Logo Header.png"></a>
+            <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <img class="align-baseline" src="images/Hamburger Menu.png" alt="Hamburger Icon" class="navbar-icon">
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-lg-1 gap-xl-3 gap-md-0 mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Trolling Motor Batteries</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Lithium Marine Batteries</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Cylinder Cells</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Chargers</a>
+                    </li>
+                </ul>
+                <div class="contact-container d-flex align-items-center justify-content-between">
+                    <div class="search-icons d-flex justify-content-between">
+                        <span class="search-icon">
+                            <img class="search-icon" src="images/Search.png" alt="search">
+                        </span>
+                        <span class="search-icon">
+                            <img class="search-icon" src="images/Account.png" alt="account">
+                        </span>
+                        <span class="search-icon position-relative">
+                            <img class="search-icon " src="images/Cart.png" alt="cart">
+                            <span
+                                class="total-cart position-absolute top-0 start-100 translate-middle badge rounded-pill">
+                                0
+                                <span class="visually-hidden">total cart</span>
+                            </span>
+                        </span>
+                    </div>
+                    <div class="contact-info py-2 px-3 rounded-pill">
+                        <img class="call-icon" src="images/Call.png" alt="call"> <span
+                            class="contact-number">+1-888-301-6677</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="fullpage-image">
+        <div class="overlay text-dark">
+            <h2 class="fw-bold">Marine And Trolling Motor Batteries</h2>
+            <ul id="features" class="features ps-0">
+
+            </ul>
+            <button type="button" class="btn shop-now px-5 py-2 fw-semibold">Shop Now <img
+                    src="images/Arrow.png"></button>
+        </div>
+        <div class="icon-container">
+            <i class="icon bg-white">
+                <i class="fa-brands fa-square-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </i>
+
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row mt-5" id="imageRow">
+        </div>
+    </div>
+
+    <div class="container position-relative my-4">
+        <h1 class="text-center mb-3 fw-normal">Lithium Marine Batteries</h1>
+        <button class="scroll-button left" id="scrollLeftBtn">&#10094;</button>
+        <div class="d-flex gap-3 card-container" id="cardContainer">
+        </div>
+        <button class="scroll-button right" id="scrollRightBtn">&#10095;</button>
+        <div class="d-flex justify-content-center my-3">
+            <button type="button" class="btn shop-now px-3 fw-semibold py-2 mx-auto">View All Products <img
+                    src="images/Arrow.png"></button>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
